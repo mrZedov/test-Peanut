@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2015",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "moduleResolution": "NodeNext",
+    "importHelpers": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "skipDefaultLibCheck": true,
+    "paths": {},
+    "inlineSources": true,
+    "sourceRoot": "",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+  }
+}

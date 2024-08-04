@@ -1,0 +1,18 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ../
+      dockerfile: ./Dockerfile
+      args:
+        - ENV=staging
+    image: test-peanut
+    restart: always
+    container_name: test-peanut
+    hostname: test-peanut
+    working_dir: /app
+    environment:
+      - ENV=staging
+      - NODE_ENV=staging
+    ports:
+      - "3000:3000"
